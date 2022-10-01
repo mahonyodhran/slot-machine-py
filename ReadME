@@ -1,0 +1,17 @@
+# Slot Machine
+
+Python application to replicate a slot machine.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```python
+to be updated. . . 
+```
