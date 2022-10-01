@@ -1,6 +1,3 @@
-from curses.ascii import isdigit
-
-
 def deposit():
     while True:
         amount = input("How much would you like to deposit? €")
