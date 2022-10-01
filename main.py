@@ -34,7 +34,6 @@ def check_winnings(lines, columns, bet, values):
     
     return winnings
 
-
 def get_slot_machine_spin(rows, cols, symbols):
     all_symbols = []
     for symbol, symbol_count in symbols.items():
@@ -123,5 +122,5 @@ def main():
 
     slots = get_slot_machine_spin(ROWS, COLS, symbol_count)
     print_slot_machine(slots)
-    
+
 main()
