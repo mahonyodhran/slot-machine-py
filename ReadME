@@ -4,14 +4,16 @@ Python application to replicate a slot machine.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
+Clone the repo
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/mahonyodhran/slot-machine-py.git
 ```
 
 ## Usage
 
+Nothing fancy, just run the main file
+
 ```python
-to be updated. . . 
+main.py
 ```
