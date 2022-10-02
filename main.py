@@ -74,9 +74,9 @@ def deposit():
             if amount > 0:
                 break
             else:
-                print('Amount must be greater than 0')
+                print('Amount must be a whole number greater than 0')
         else:
-            print("Please enter a number.")
+            print("Please enter a whole number.")
     
     return amount
 
@@ -102,9 +102,9 @@ def get_bet():
             if MIN_BET <= amount <= MAX_BET:
                 break
             else:
-                print(f"Amount must be between €{MIN_BET} - €{MAX_BET}!")
+                print(f"Amount must be a whole number between €{MIN_BET} - €{MAX_BET}!")
         else:
-            print("Please enter a number.")
+            print("Please enter a whole number number.")
     
     return amount
 
